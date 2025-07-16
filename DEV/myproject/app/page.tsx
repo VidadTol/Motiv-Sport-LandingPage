@@ -84,7 +84,7 @@ export default function Home() {
         <TextSection
           title="Crée ou rejoins des évènements !"
           text="Que tu veuilles organiser un match ou participer à une session, trouve et rejoins des événements sportifs en un clin d'œil."
-          imgSrc="/Liste-event.png"
+          imgSrc="/Liste_event.png"
           background="bg-gradient-to-b from-green-600 to-blue-200 text-white"
           showArrow={true}
         />
