@@ -27,7 +27,7 @@ export default function Home() {
         <section className="sticky top-0 min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
           {/* Vidéo de fond */}
           <video
-            className="absolute inset-0 w-full h-full object-cover z-0"
+            className="absolute inset-0 w-full h-[60vh] sm:h-full object-cover z-0"
             src="/Video-motiv-sport.mp4"
             autoPlay
             loop
