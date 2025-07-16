@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="fr">
       <body className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex flex-col font-sans`}>
         <main className="flex-1 flex flex-col">{children}</main>
-        <footer className="w-full bg-gradient-to-r from-green-400 to-green-500 text-white p-4 text-center">
+         <footer className="w-full bg-white/40 backdrop-blur-md text-green-500 p-4 text-center">
           <p>All right reserved - Motiv Sport © 2025</p>
         </footer>
       </body>
