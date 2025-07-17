@@ -28,7 +28,7 @@ export default function Home() {
           {/* Vidéo de fond */}
           <video
             className="absolute inset-0 w-full h-full object-cover z-0"
-            src="/Video-motiv-sport.mp4"
+            src="/Video_landing_page.mp4"
             autoPlay
             loop
             muted
