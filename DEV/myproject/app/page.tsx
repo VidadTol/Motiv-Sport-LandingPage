@@ -75,7 +75,7 @@ export default function Home() {
         <TextSection
           title="Your personal space!"
           text="Easily find partners, manage your groups and track your activities, all in one place. Stay motivated by following your progress and discover new opportunities to move together."
-          imgSrc="/Dashboard.png"
+          imgSrc="/Dashboard1.png"
           background="bg-gradient-to-b from-blue-200 to-green-600 text-white"
           reverse
           showArrow={true}
