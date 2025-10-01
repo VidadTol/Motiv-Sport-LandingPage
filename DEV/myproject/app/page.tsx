@@ -65,16 +65,16 @@ export default function Home() {
 
         {/* Slides */}
         <TextSection
-          title="Sports are better together."
-          text="Curious beginner or passionate athlete? Easily find partners at your level, join groups near you, and share your passion in a welcoming atmosphere."
+          title="Le sport, c'est mieux à plusieurs."
+          text="Débutant curieux ou athlète passionné ? Trouve facilement des partenaires de ton niveau, rejoins des groupes près de chez toi, et partage ta passion dans une ambiance bienveillante."
           imgSrc="/Chaussures-running.png"
           background="bg-gradient-to-b from-green-600 to-blue-200 text-white"
           showArrow={true}
         />
 
         <TextSection
-          title="Your personal space!"
-          text="Easily find partners, manage your groups and track your activities, all in one place. Stay motivated by following your progress and discover new opportunities to move together."
+          title="Ton espace personnel !"
+          text="Trouve facilement des partenaires, gère tes groupes et suis tes activités, le tout au même endroit. Reste motivé en suivant ta progression et découvre de nouvelles opportunités de bouger ensemble."
           imgSrc="/Dashboard1.png"
           background="bg-gradient-to-b from-blue-200 to-green-600 text-white"
           reverse
@@ -82,8 +82,8 @@ export default function Home() {
         />
 
         <TextSection
-          title="Create or join events!"
-          text="Whether you want to organize a match or participate in a session, find and join sports events in a snap."
+          title="Crée ou rejoins des événements !"
+          text="Que tu veuilles organiser un match ou participer à une session, trouve et rejoins des événements sportifs en un clin d'œil."
           imgSrc="/Liste_event.png"
           background="bg-gradient-to-b from-green-600 to-blue-200 text-white"
           showArrow={true}
@@ -96,22 +96,22 @@ export default function Home() {
         >
           <div className="max-w-6xl mx-auto w-full">
             <h2 className="text-4xl sm:text-5xl font-extrabold text-center mb-12 bg-gradient-to-br from-green-500 to-blue-600 bg-clip-text text-transparent">
-              About Motiv Sport
+              À Propos de Motiv Sport
             </h2>
 
             <div className="mb-16">
               <h3 className="text-3xl font-bold text-center mb-6">
-                Our Story, Our Motivation
+                Notre Histoire, Notre Motivation
               </h3>
               <p className="text-lg leading-relaxed md:text-justify max-w-5xl mx-auto mb-6">
-                The idea of{" "}
+                L&apos;idée de{" "}
                 <span className="font-semibold text-green-700">
                   Motiv Sport
                 </span>{" "}
-                was born to address a concrete and widely shared need among sports enthusiasts: the difficulty of easily finding available and motivated partners or teammates to practice their favorite activities. Too often, isolation or organizational constraints hamper the desire to get moving, and we found that the lack of a simple and effective network was glaring. Moreover, by relying on a web and mobile application, the project exploits the digital trend, offering an accessible and practical solution for modern athletes.
+                est née pour répondre à un besoin concret et largement partagé parmi les passionnés de sport : la difficulté de trouver facilement des partenaires ou des coéquipiers disponibles et motivés pour pratiquer leurs activités favorites. Trop souvent, l&apos;isolement ou les contraintes d&apos;organisation freinent l&apos;envie de bouger, et nous avons constaté que le manque d&apos;un réseau simple et efficace était criant. De plus, en s&apos;appuyant sur une application web et mobile, le projet exploite la tendance numérique, offrant une solution accessible et pratique pour les sportifs modernes.
               </p>
               <p className="text-lg leading-relaxed md:text-justify max-w-5xl mx-auto mb-6">
-                It was during our intensive training at{" "}
+                C&apos;est au cours de notre formation intensive à la{" "}
                 <a
                   href="https://www.holbertonschool.fr/"
                   target="_blank"
@@ -120,15 +120,15 @@ export default function Home() {
                 >
                   Holberton School
                 </a>
-                , a program resolutely focused on solving concrete problems through development, that this concept began to take on its full scope. As future Full Stack developers and project managers, our team set out to transform this observation into a functional solution. Throughout the design and development phases, we broke down user stories into tasks, prioritized features, and structured our approach to create an intuitive platform.
+                , un programme résolument axé sur la résolution de problèmes concrets par le développement, que ce concept a commencé à prendre toute son ampleur. En tant que futurs développeurs Full Stack et chefs de projet, notre équipe s&apos;est donné pour mission de transformer cette observation en une solution fonctionnelle. Tout au long des phases de conception et de développement, nous avons découpé les user stories en tâches, priorisé les fonctionnalités et structuré notre approche pour créer une plateforme intuitive.
               </p>
               <p className="text-lg leading-relaxed md:text-justify max-w-5xl mx-auto mb-6">
-                Motiv Sport is thus much more than a simple application; it&apos;s the reflection of our commitment to breaking the isolation of athletes, facilitating the organization of activities, encouraging regular practice, and creating a true community of enthusiasts. This project represents the culmination of our learning, our passion for web and mobile development, and our pride in presenting a concrete and relevant solution for the sports community.
+                Motiv Sport est ainsi bien plus qu&apos;une simple application ; c&apos;est le reflet de notre engagement à briser l&apos;isolement des sportifs, à faciliter l&apos;organisation d&apos;activités, à encourager une pratique régulière et à créer une véritable communauté de passionnés. Ce projet représente l&apos;aboutissement de notre apprentissage, notre passion pour le développement web et mobile, et notre fierté de présenter une solution concrète et pertinente pour la communauté sportive.
               </p>
             </div>
 
             <div className="mb-16">
-              <h3 className="text-3xl font-bold text-center mb-8">The Team</h3>
+              <h3 className="text-3xl font-bold text-center mb-8">L&apos;Équipe</h3>
               <div className="flex flex-col md:flex-row justify-center items-center gap-12">
                 <div className="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full md:w-1/3 lg:w-1/4">
                   <div className="relative w-24 h-24 mb-4">
@@ -143,8 +143,8 @@ export default function Home() {
                     David
                   </h4>
                   <p className="text-gray-600 mb-4">
-                    Project Manager
-                    <br /> & <br /> Full-stack Developer
+                    Chef de projet
+                    <br /> & <br /> Développeur full-stack
                   </p>
                   <div className="flex space-x-4">
                     <a
@@ -194,8 +194,8 @@ export default function Home() {
                     Jordan
                   </h4>
                   <p className="text-gray-600 mb-4">
-                    Project Manager
-                    <br /> & <br /> Full-stack Developer
+                    Chef de projet
+                    <br /> & <br /> Développeur full-stack
                   </p>
                   <div className="flex space-x-4">
                     <a

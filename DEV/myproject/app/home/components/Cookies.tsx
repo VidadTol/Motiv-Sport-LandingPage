@@ -28,8 +28,8 @@ export default function Cookies() {
       cookieName="MotivSportsCookieConsent"
       enableDeclineButton
       disableStyles={true}
-      buttonText="Accept"
-      declineButtonText="Decline"
+      buttonText="Accepter"
+      declineButtonText="Refuser"
       onAccept={handleAccept}
       onDecline={handleDecline}
       containerClasses="fixed bottom-0 left-0 w-full flex flex-col md:flex-row items-center justify-between px-4 py-3 bg-white/95 border-t border-gray-200 shadow-lg z-[9999] transition-all duration-300"
@@ -37,14 +37,14 @@ export default function Cookies() {
       declineButtonClasses="bg-gray-200 text-gray-800 font-bold rounded px-6 py-2 mx-1 hover:bg-gray-300 transition"
       expires={365}
     >
-      This site uses cookies to improve your experience.{" "}
+      Ce site utilise des cookies pour améliorer votre expérience.{" "}
       <a
-        href="/cookie-policy"
+        href="/politique-cookies"
         className="underline text-green-700 hover:text-green-900 ml-1"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Learn more
+        En savoir plus
       </a>
     </CookieConsent>
   );

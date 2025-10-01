@@ -17,8 +17,8 @@ export default function NavLink() {
   }, []);
 
   const links = [
-    { href: "/", label: "Sign Up" },
-    { href: "/", label: "Login" },
+    { href: "/", label: "Inscription" },
+    { href: "/", label: "Connexion" },
   ];
 
   return (
