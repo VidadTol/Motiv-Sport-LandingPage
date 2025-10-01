@@ -103,14 +103,14 @@ export default function Home() {
               <h3 className="text-3xl font-bold text-center mb-6">
                 Notre Histoire, Notre Motivation
               </h3>
-              <p className="text-lg leading-relaxed md:text-justify max-w-5xl mx-auto mb-6">
+              <p className="text-lg leading-relaxed text-justify max-w-5xl mx-auto mb-6">
                 L&apos;idée de{" "}
                 <span className="font-semibold text-green-700">
                   Motiv Sport
                 </span>{" "}
                 est née pour répondre à un besoin concret et largement partagé parmi les passionnés de sport : la difficulté de trouver facilement des partenaires ou des coéquipiers disponibles et motivés pour pratiquer leurs activités favorites. Trop souvent, l&apos;isolement ou les contraintes d&apos;organisation freinent l&apos;envie de bouger, et nous avons constaté que le manque d&apos;un réseau simple et efficace était criant. De plus, en s&apos;appuyant sur une application web et mobile, le projet exploite la tendance numérique, offrant une solution accessible et pratique pour les sportifs modernes.
               </p>
-              <p className="text-lg leading-relaxed md:text-justify max-w-5xl mx-auto mb-6">
+              <p className="text-lg leading-relaxed text-justify max-w-5xl mx-auto mb-6">
                 C&apos;est au cours de notre formation intensive à la{" "}
                 <a
                   href="https://www.holbertonschool.fr/"
@@ -122,7 +122,7 @@ export default function Home() {
                 </a>
                 , un programme résolument axé sur la résolution de problèmes concrets par le développement, que ce concept a commencé à prendre toute son ampleur. En tant que futurs développeurs Full Stack et chefs de projet, notre équipe s&apos;est donné pour mission de transformer cette observation en une solution fonctionnelle. Tout au long des phases de conception et de développement, nous avons découpé les user stories en tâches, priorisé les fonctionnalités et structuré notre approche pour créer une plateforme intuitive.
               </p>
-              <p className="text-lg leading-relaxed md:text-justify max-w-5xl mx-auto mb-6">
+              <p className="text-lg leading-relaxed text-justify max-w-5xl mx-auto mb-6">
                 Motiv Sport est ainsi bien plus qu&apos;une simple application ; c&apos;est le reflet de notre engagement à briser l&apos;isolement des sportifs, à faciliter l&apos;organisation d&apos;activités, à encourager une pratique régulière et à créer une véritable communauté de passionnés. Ce projet représente l&apos;aboutissement de notre apprentissage, notre passion pour le développement web et mobile, et notre fierté de présenter une solution concrète et pertinente pour la communauté sportive.
               </p>
             </div>
