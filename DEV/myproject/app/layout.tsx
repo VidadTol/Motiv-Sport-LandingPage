@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import FooterClient from "./components/FooterClient";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,9 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="fr">
       <body className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex flex-col font-sans`}>
         <main className="flex-1 flex flex-col">{children}</main>
-         <footer className="w-full bg-white/40 backdrop-blur-md text-green-500 p-4 text-center">
-          <p>Tous droits réservés - Motiv Sport © 2025</p>
-        </footer>
+        <FooterClient />
       </body>
     </html>
   );
