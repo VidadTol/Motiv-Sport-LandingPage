@@ -33,24 +33,24 @@ export default function ConfidentialitePage() {
             </h2>
             <div className="space-y-2 text-justify">
             <p>
-              Motiv' Sport est une plateforme web conçue pour encourager la
+              Motiv&apos; Sport est une plateforme web conçue pour encourager la
               pratique sportive à travers des événements collaboratifs,
               accessibles à tous. Pensée comme un outil pédagogique dans le cadre
               de la validation RNCP 5 DWWM (Développeur Web et Web Mobile), elle
-              met en avant l'inclusivité, la simplicité d'usage et le respect des
+              met en avant l&apos;inclusivité, la simplicité d&apos;usage et le respect des
               données personnelles.
              </p>
               <p>
               Le projet repose sur une approche humaine et locale, valorisant
-              l'engagement, la motivation et le lien social. Chaque fonctionnalité
-              de la création d'événements à la messagerie intégrée a été
+              l&apos;engagement, la motivation et le lien social. Chaque fonctionnalité
+              de la création d&apos;événements à la messagerie intégrée a été
               développée avec soin pour offrir une expérience fluide, sécurisée et
               conforme aux standards du web moderne.
               </p>
               <p>
-              Motiv' Sport est porté par Vidad, basé à Toulouse, Occitanie,
+              Motiv&apos; Sport est porté par Vidad, basé à Toulouse, Occitanie,
               France, dans une démarche de professionnalisation, de responsabilité
-              numérique et d'amélioration continue.
+              numérique et d&apos;amélioration continue.
             </p>
             </div>
           </section>
@@ -68,7 +68,7 @@ export default function ConfidentialitePage() {
                 Données liées aux événements sportifs (création, participation)
               </li>
               <li>Messages échangés via la messagerie interne</li>
-              <li>Statistiques d'activité (durée, distance, etc.)</li>
+              <li>Statistiques d&apos;activité (durée, distance, etc.)</li>
             </ul>
           </section>
 
@@ -77,11 +77,11 @@ export default function ConfidentialitePage() {
               <FileText className="w-5 h-5" /> 3. Finalité de la collecte
             </h2>
             <ul className="list-disc list-inside space-y-1">
-              <li>Permettre l'inscription et la connexion sécurisée</li>
+              <li>Permettre l&apos;inscription et la connexion sécurisée</li>
               <li>Afficher et gérer les événements sportifs</li>
               <li>Faciliter les échanges entre membres</li>
-              <li>Suivre l'activité sportive de l'utilisateur</li>
-              <li>Améliorer l'expérience utilisateur</li>
+              <li>Suivre l&apos;activité sportive de l&apos;utilisateur</li>
+              <li>Améliorer l&apos;expérience utilisateur</li>
             </ul>
           </section>
 
@@ -90,7 +90,7 @@ export default function ConfidentialitePage() {
               <ShieldCheck className="w-5 h-5" /> 4. Base légale du traitement
             </h2>
             <ul className="list-disc list-inside space-y-1">
-              <li>Consentement explicite de l'utilisateur</li>
+              <li>Consentement explicite de l&apos;utilisateur</li>
               <li>Intérêt légitime du fonctionnement du service</li>
             </ul>
           </section>
@@ -100,8 +100,8 @@ export default function ConfidentialitePage() {
               <CalendarClock className="w-5 h-5" /> 5. Durée de conservation
             </h2>
             <p>
-              Les données sont conservées tant que l'utilisateur est actif sur la
-              plateforme, ou jusqu'à la demande de suppression de son compte.
+              Les données sont conservées tant que l&apos;utilisateur est actif sur la
+              plateforme, ou jusqu&apos;à la demande de suppression de son compte.
             </p>
           </section>
 
@@ -121,11 +121,11 @@ export default function ConfidentialitePage() {
               <Fingerprint className="w-5 h-5" /> 7. Droits des utilisateurs
             </h2>
             <ul className="list-disc list-inside space-y-1">
-              <li>Droit d'accès à ses données</li>
+              <li>Droit d&apos;accès à ses données</li>
               <li>Droit de rectification</li>
-              <li>Droit à l'effacement ("droit à l'oubli")</li>
+              <li>Droit à l&apos;effacement (&quot;droit à l&apos;oubli&quot;)</li>
               <li>Droit à la portabilité</li>
-              <li>Droit d'opposition au traitement</li>
+              <li>Droit d&apos;opposition au traitement</li>
             </ul>
             <p className="mt-2">
               Pour exercer ces droits, contactez-nous à :{" "}
@@ -139,8 +139,8 @@ export default function ConfidentialitePage() {
             </h2>
             <p>
               Le site utilise uniquement des cookies techniques pour assurer le
-              bon fonctionnement de l'interface et mémoriser les préférences
-              utilisateur. Aucun cookie publicitaire ou de traçage n'est utilisé.
+              bon fonctionnement de l&apos;interface et mémoriser les préférences
+              utilisateur. Aucun cookie publicitaire ou de traçage n&apos;est utilisé.
             </p>
           </section>
 
